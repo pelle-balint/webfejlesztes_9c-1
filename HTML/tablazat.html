@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Táblázatok</title>
     <style>
-        table, td {
+        table, td, th {
             border: 1px solid black;
             border-collapse: collapse;
+            text-align: center;
         }
-        td {
+        td, th {
             padding: 10px;
         }
     </style>
@@ -17,12 +18,105 @@
     <!-- tr: table row = tablazat sor -->
     <!-- td: table data = tablazat adat (cella) -->
     <table>
+        <caption>Ország, város játék táblázat</caption>
         <tr>
-            <td>Ország</td>
-            <td>Város</td>
-            <td>Fiú</td>
-            <td>Lány</td>
+            <th>Ország</th>
+            <th>Város</th>
+            <th>Fiú</th>
+            <th>Lány</th>
+        </tr>
+        <tr>
+            <td>Algéria</td>
+            <td>Albertirsa</td>
+            <td>Albert</td>
+            <td>Anna</td>
+        </tr>
+        <tr>
+            <td>Bangladesh</td>
+            <td>Babarcszőlős</td>
+            <td>Balázs</td>
+            <td>Bernadett</td>
+        </tr>
+        <tr>
+            <td>Ciprus</td>
+            <td>Cegléd</td>
+            <td>Cézár</td>
+            <td>Cecil</td>
+        </tr>
+        <tr>
+            <td>Dánia</td>
+            <td>Domony</td>
+            <td>Dante</td>
+            <td>Dorina</td>
         </tr>
     </table>
+
+    <hr>
+    <table>
+        <tr>
+            <th>Osztály</th>
+            <th>Név</th>
+        </tr>
+        <tr>
+            <td rowspan="4">9.c</td>
+            <td>Csányi Alex</td>
+        </tr>
+        <tr>
+            <!-- <td>9.c</td> -->
+            <td>Szabó István</td>
+        </tr>
+        <tr>
+            <!-- <td>9.c</td> -->
+            <td>Dobrovenszki Balázs</td>
+        </tr>
+        <tr>
+            <!-- <td>9.c</td> -->
+            <td>Kesztyűs Kristóf</td>
+        </tr>
+        <tr>
+            <td rowspan="2">9.b</td>
+            <td>Németh Gábor</td>
+        </tr>
+        <tr>
+            <!-- <td>9.b</td> -->
+            <td>Szabó Máriusz</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table>
+        <tr>
+            <th>Termék</th>
+            <th>Egységár</th>
+            <th>Mennyiség</th>
+            <th>Fizetendő</th>
+        </tr>
+        <tr>
+            <td>Körző</td>
+            <td>1390</td>
+            <td>1</td>
+            <td>1390</td>
+        </tr>
+        <tr>
+            <td>Füzet</td>
+            <td>210</td>
+            <td>3</td>
+            <td>630</td>
+        </tr>
+        <tr>
+            <td>Vonalzó</td>
+            <td>433</td>
+            <td>2</td>
+            <td>866</td>
+        </tr>
+        <tr>
+            <td colspan="3">Összesen</td>
+            <!-- <td>Összesen</td>
+            <td>Összesen</td> -->
+            <td>2886</td>
+        </tr>
+    </table>
+    <hr>
 </body>
 </html>
