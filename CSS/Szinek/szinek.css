@@ -1,0 +1,13 @@
+p {
+    color: blue;
+}
+
+/* CSS komment */
+/* body p span -> specifikusabb */
+span {
+    color: green;
+}
+
+#modern {
+    color: yellow;
+}
