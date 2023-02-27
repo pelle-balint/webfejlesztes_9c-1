@@ -11,3 +11,17 @@ span {
 #modern {
     color: yellow;
 }
+
+.golyo {
+    color: black;
+}
+
+/* body-n belul osszes span */
+/* body span {
+    color: purple;
+} */
+
+/* body kozvetlen gyereke */
+body>span {
+    color: purple;
+}
