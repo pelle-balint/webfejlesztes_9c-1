@@ -33,8 +33,69 @@ body {
     height: 20vh;
 }
 
+/* ~: felso_doboz azonositoju elem kesobbi testverei */
+#felso_doboz ~ div {
+    width: 40%;
+    height: 40px;
+}
 
+#szegely {
+    background-color: orange;
+    /* dashed, dotted, solid, double */
+    /* szaggatott, pontozott, folytonos, dupla */
+    /* border-style: solid;
+    border-width: 2.5px;
+    border-color: red; */
+    border: 2.5px solid red;
+}
 
+#vegyes {
+    background-color: aqua;
+    /* top, right, bottom, left */
+    /* fent, jobbra, lent, balra */
+    border-right: 2px dashed black;
+    border-bottom: 5px dotted yellow;
+    margin-bottom: 40px;
+}
 
+#kulso_margo {
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 40px;
+}
 
+#felso_doboz ~ #kulso {
+    background-color: saddlebrown;
+    /* margin: 50px; */
+    height: auto;
+}
 
+#belso {
+    background-color: hotpink;
+    margin: 10px;
+}
+
+#belso_margo {
+    background-color: red;
+    padding: 10px;
+}
+
+#belso_vegyes {
+    background-color: royalblue;
+    height: auto !important;
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+    /* padding: 20px 40px 60px 80px; */
+    /* padding: 20px 40px; */
+    padding: 20px 40px 60px;
+}
+
+#kozepre {
+    background-color: yellow;
+    /* margin-left: 30%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: auto;
+}
