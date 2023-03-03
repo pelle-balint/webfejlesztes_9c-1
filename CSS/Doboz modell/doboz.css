@@ -16,3 +16,25 @@ body {
     background-color: lightgray;
     width: 50%;
 }
+
+#zold {
+    background-color: green;
+    /* vw: view width */
+    width: 75vw;
+}
+
+#lila {
+    background-color: purple;
+    height: 100px;
+}
+
+#citrom {
+    background-color: yellow;
+    height: 20vh;
+}
+
+
+
+
+
+
