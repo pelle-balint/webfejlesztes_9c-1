@@ -1,3 +1,9 @@
+/* 
+block: hr, h1-h6, p, div
+inline: a, b, i, u, span
+inline-block: img
+*/
+
 img {
     width: 300px;
     border: 5px dotted purple;
@@ -17,6 +23,11 @@ div {
     border: 1px solid black;
 }
 
+/* inline:
+1. Merete csak akkora, hogy a tartalom pont elferjen
+--> nem adhato width, height
+2. Egymas melle kerulnek (egy sorba)
+*/
 .egysoros {
     display: inline;
 }
@@ -27,4 +38,16 @@ div {
 */
 .tobbsoros {
     display: block;
+}
+
+/* inline-block:
+1. Meretezheto (block)
+2. Egy sorba kerulnek az elemek
+*/
+.vegyes {
+    display: inline-block;
+}
+
+.nincsitt {
+    display: none;
 }
