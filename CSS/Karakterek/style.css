@@ -14,7 +14,7 @@ p {
 #football {
     /* font-size: 50px; */
     /* font-size: 250%; */
-    font-size: 2.5rem;
+    font-size: 2.5em;
     background-color: lightblue;
     display: inline-block;
     /* width: 50%; */
@@ -30,3 +30,16 @@ html {
     font-size: 2.5rem;
 }
 
+#usa {
+    font-variant: small-caps;
+}
+
+#ifab {
+    color: blue;
+    /* monospace: egyforma szelessegu betuk */
+    /* serif: talpas */
+    /* sans-serif: talpatlan */
+    /* cursive: kezirasos */
+    /* fantasy: "fantazia" -> egyeb */
+    font-family: 'Courier New', Courier, monospace;
+}
