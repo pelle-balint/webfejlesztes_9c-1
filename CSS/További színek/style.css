@@ -10,3 +10,43 @@ div {
     /* 0 es 255 kozott */
     background-color: rgb(200, 50, 0);
 }
+
+#doboz2 {
+    /* 
+    #16F41A
+    r: 16 -> 1 * 16^1 + 6 * 16^0 = 16+6 = 22
+    g: F4 -> F * 16 + 4 * 1 = 15 * 16 + 4 = 240 + 4 = 244
+    b: 1A -> 1 * 16 + A * 1 = 16 + 10 = 26
+
+    rgb(22, 244, 26)
+
+    A = 10
+    B = 11
+    C = 12
+    D = 13
+    E = 14
+    F = 15
+    */
+
+    background-color: #16F41A;
+    background-color: rgb(22, 244, 26);
+}
+
+#doboz3 {
+    /* alpha => atlatszosag */
+    background-color: rgba(4, 30, 200, 60%);
+    /* background-color: rgb(50, 50, 250); */
+}
+
+#doboz4 {
+    /* hue: arnyalat 0-360 */
+    /* saturation: telitettseg % */
+    /* lightness: fenyero % */
+    background-color: hsl(67, 81%, 47%);
+}
+
+#doboz5 {
+    background-color: red;
+    opacity: 70%;
+    color: blue;
+}
